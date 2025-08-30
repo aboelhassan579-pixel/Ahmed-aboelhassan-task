@@ -1,0 +1,59 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "34fdfa69-bcbd-424a-b189-c9cfe4746bd4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "total cost is 120.you still have money\n",
+      "80.left\n"
+     ]
+    }
+   ],
+   "source": [
+    "short=40\n",
+    "t_shirt=50\n",
+    "sneakers=30\n",
+    "budget=200\n",
+    "total_cost= short + t_shirt + sneakers\n",
+    "left_money= budget - total_cost \n",
+    "print(f\"total cost is {total_cost}.you still have money\")\n",
+    "print(f\"{left_money}.left\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5bea1d04-85f9-4c12-9899-ac492b162f91",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
